@@ -1,0 +1,81 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    background: linear-gradient(135deg, #54b9e4, #9bd2e4, #65a9c6);
+    min-height: 100vh;
+    padding: 60px 20px;
+    color: #2c2c2c;
+}
+
+/* CONTAINER */
+body > * {
+    max-width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* JUDUL UTAMA */
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 50px;
+    font-size: 2.6rem;
+    letter-spacing: 1px;
+}
+
+/* SUB JUDUL */
+h3 {
+    background: rgba(255, 255, 255, 0.97);
+    padding: 16px 24px;
+    border-radius: 14px;
+    margin: 30px 0 15px;
+    font-size: 1.25rem;
+    color: #1a1a1a;
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.25);
+}
+
+/* LIST */
+ul {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 22px 40px;
+    border-radius: 14px;
+    margin-bottom: 25px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* ITEM */
+ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* KESIMPULAN */
+p {
+    background: linear-gradient(135deg, #3372ad, #66a0ec);
+    color: #ffffff;
+    padding: 24px 30px;
+    border-radius: 18px;
+    margin-top: 50px;
+    font-size: 1.1rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.1rem;
+    }
+
+    h3 {
+        font-size: 1.15rem;
+    }
+}

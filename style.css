@@ -1,0 +1,74 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Background */
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #59beea, #ac9fb9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Box login */
+.login-box {
+    background-color: #ffffff;
+    width: 350px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Judul */
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* Grup input */
+.input-group {
+    margin-bottom: 15px;
+}
+
+/* Label */
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Input */
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+}
+
+.input-group input:focus {
+    border-color: #5d8aeb;
+}
+
+/* Tombol */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #7192e4;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5563c1;
+}
